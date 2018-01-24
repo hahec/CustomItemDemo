@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="custItem">
+        <attr name="head_src" format="reference"/>
+        <attr name="head_to_name" format="dimension"/>
+        <attr name="item_name" format="string"/>
+        <attr name="name_size" format="dimension"/>
+        <attr name="name_color" format="color"/>
+        <attr name="name_bg" format="reference|color"/>
+        <attr name="tv1_content" format="string"/>
+        <attr name="tv1_size" format="dimension"/>
+        <attr name="tv1_color" format="color"/>
+        <attr name="tv1_bg" format="reference|color"/>
+        <attr name="tv1_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+            <enum name="gone" value="2"/>
+        </attr>
+        <attr name="tv2_content" format="string"/>
+        <attr name="tv2_size" format="dimension"/>
+        <attr name="tv2_color" format="color"/>
+        <attr name="tv2_bg" format="reference|color"/>
+        <attr name="tv2_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+            <enum name="gone" value="2"/>
+        </attr>
+        <attr name="enter_src" format="reference"/>
+        <attr name="tv2_to_enter" format="dimension"/>
+        <attr name="tv1_to_tv2" format="dimension"/>
+    </declare-styleable>
+</resources>

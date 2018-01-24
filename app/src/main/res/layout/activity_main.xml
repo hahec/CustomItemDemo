@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.goddragonfish.customitemdemo.MainActivity">
+
+    <com.example.goddragonfish.customitemdemo.CustomItemView
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        custom:head_src="@mipmap/ic_launcher_round"
+        custom:head_to_name="20dp"
+        custom:item_name="个人中心"
+        custom:name_size="5sp"
+        custom:name_color="@color/colorAccent"
+        custom:tv1_content="我是tv1"
+        custom:tv1_size="8sp"
+        custom:tv1_color="@color/colorAccent"
+        custom:enter_src="@mipmap/ic_launcher_round"
+        custom:tv2_content="我是tv2"
+
+
+        />
+
+
+</LinearLayout>
